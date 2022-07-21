@@ -165,6 +165,11 @@ body{
     margin: 0 10px;
     
 }
+.icons i{
+    margin-right: 15px ;
+    margin-top:  40px;
+    font-size: 30px;
+}
 .goal{
     font-size: 40px;
     font-weight: 600;
