@@ -120,10 +120,7 @@ body{
 .second{
     display: grid;
     grid-template-columns: repeat(3 , 1fr);
-    grid-gap: 24px;
-    
-    
-     
+    grid-gap: 24px;   
 }
 .elements{
     width: 312px;
@@ -191,18 +188,24 @@ hr{
 
 .flag{
     text-align: center;
-    width: 312px;
-    height: 242px;
+   
     margin: 0 10px;
     padding: 5px;
     display: grid;
     grid-template-columns: repeat(3 , 1fr); 
     
 }
-.letter{
+.card-container{
     border: 1px solid #E8E8E8; 
+    width: 312px;
+    height: 242px;
+    text-align: center;
+}
+    
+@media screen and (max-width) {
     
 }
-/* media queries  */
-@media only screen and max width
+    
+
+
 
